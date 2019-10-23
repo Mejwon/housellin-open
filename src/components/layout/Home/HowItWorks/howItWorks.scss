@@ -1,0 +1,50 @@
+// How it works
+.hiw {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../../../assets/12.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hiw__title {
+  max-width: 66em;
+  margin: 0 auto;
+  padding-bottom: 3.125em;
+  color: white;
+}
+
+.hiw-item {
+  margin-bottom: 3em;
+}
+
+.hiw-item__icon-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hiw-item__title {
+  color: white;
+  padding-bottom: 0.5em;
+}
+
+.hiw-item__description {
+  text-align: left;
+  color: white;
+}
+
+.hiw-item__icon {
+  width: 135px;
+}
+
+@media screen and (min-width: 1024px) {
+  .icon-position--left {
+    justify-content: flex-start;
+  }
+
+  .icon-position--right {
+    justify-content: flex-end;
+  }
+}

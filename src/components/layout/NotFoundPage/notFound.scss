@@ -1,0 +1,17 @@
+.not-found {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.not-found__text {
+  margin-bottom: 50px;
+}
+
+.fa-sad-tear {
+  color: #009499;
+  font-size: 70px;
+  margin-bottom: 50px;
+}

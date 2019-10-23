@@ -1,0 +1,22 @@
+.get-offer {
+  background-image: url('../../../../assets/7.jpg');
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.get-offer__content {
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+  color: white;
+  padding: 4em 0;
+  display: flex;
+}
+
+.get-offer__font-position {
+  padding: 2em 0;
+  max-width: 490px;
+  margin: 0 auto;
+}

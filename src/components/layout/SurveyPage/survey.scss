@@ -1,0 +1,22 @@
+.form--survey {
+  margin-top: 7em;
+  padding: 1em;
+}
+
+.survey {
+  iframe {
+    min-height: 5000px;
+    height: 100%;
+    margin: 5em auto;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .survey {
+    iframe {
+      min-height: 4000px;
+      height: 100%;
+    }
+  }
+}

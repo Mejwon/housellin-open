@@ -1,0 +1,35 @@
+.benefit {
+  margin-top: 3em;
+}
+
+.benefit__title {
+  font-size: 24px;
+  padding-bottom: 20px;
+  max-width: 450px;
+  margin: 0 auto;
+  color: #4d4d4d;
+}
+
+.benefit__description {
+  max-width: 365px;
+  margin: 0 auto;
+  color: #4d4d4d;
+  z-index: 2;
+  position: relative;
+}
+
+.benefit__number-accent {
+  position: absolute;
+  color: #009499;
+  font-size: 6.25em;
+  line-height: 1;
+  top: -35px;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 769px) {
+  .benefit--third {
+    margin-top: 6em;
+  }
+}

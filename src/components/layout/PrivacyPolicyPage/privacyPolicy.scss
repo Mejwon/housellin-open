@@ -1,0 +1,19 @@
+.privacy-policy {
+  margin-top: 100px;
+
+  ul,
+  ol {
+    margin: 1em 2em 2em 2em;
+    line-height: 35px;
+  }
+
+  ul {
+    list-style-type: initial;
+  }
+  .privacy-policy__header {
+    p {
+      font-size: 16px;
+      margin: 1em 0;
+    }
+  }
+}

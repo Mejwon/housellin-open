@@ -1,0 +1,59 @@
+.margin-section--advantages {
+  padding-top: 7em;
+  margin-bottom: 14.25em;
+}
+
+.advantages__background {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent transparent transparent #dbdbdb;
+  z-index: -1;
+  top: 0;
+}
+
+.advantages__item {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #009499;
+  color: white;
+  max-width: 22em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.75em;
+}
+
+.fa-check-circle,
+.fa-minus-circle {
+  font-size: 2em;
+  color: #f7e4a2;
+}
+
+.advantages__description-wrapper {
+  display: flex;
+  padding-top: 2em;
+  align-items: center;
+}
+
+.advantages__description-wrapper:not(:last-child) {
+  padding-bottom: 2em;
+}
+
+.advantages__description {
+  margin-left: 1.25em;
+}
+
+@media all and (min-width: 768px) {
+  .advantages__item--second {
+    margin-top: 3.625em;
+    position: relative;
+  }
+
+  .advantages__item--third {
+    position: relative;
+    margin-top: 7.25em;
+  }
+}

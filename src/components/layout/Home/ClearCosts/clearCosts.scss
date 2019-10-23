@@ -1,0 +1,24 @@
+.clear-cost__desc-wrapper {
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+.clear-cost__desc,
+.clear-cost__equations {
+  font-size: 1.5em;
+  color: #4d4d4d;
+  width: 100%;
+  max-width: 450px;
+}
+
+.clear-cost__equation-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
