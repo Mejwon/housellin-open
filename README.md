@@ -1,1 +1,1 @@
-Prawo autorskie Housellin
+Prawa autorskie Housellin
